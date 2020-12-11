@@ -25,10 +25,10 @@ function decrement(n) {
   return n;
 }
 
-// function makeInt(n) {
-//   return None;
-// }
-//
-// function preserveDecimal(n) {
-//   return Null;
-// }
+function makeInt(string) {
+  return parseInt(string, 10);
+}
+
+function preserveDecimal(string) {
+  return parseFloat(string);
+}
